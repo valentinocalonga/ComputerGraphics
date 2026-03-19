@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Serie2.cpp">
+    <ClCompile Include="S02_BasicRasterization.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>

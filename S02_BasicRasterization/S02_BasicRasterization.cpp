@@ -1,5 +1,5 @@
 /**
- * @file		Serie2.cpp
+ * @file		S02_BasicRasterization.cpp
  * @brief	Basic rasterization using GLM
  *
  * @author	Valentino Calonga - SUPSI [valentino.calonga@student.supsi.ch]
@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
    *      2) T2 = rotation by 90° around Z-axis
    *      3) T3 = translation by 10 units along the X-axis
    *      4) Apply these transformations in sequence: first T1, then T2, followed by T3.
-   * 
+   *
    *     Compute and print the world coordinates of the triangle for each case.
    */
 
@@ -127,8 +127,8 @@ int main(int argc, char* argv[])
    cout << "c3 = " << glm::to_string(c3) << endl;
 
    /*
-   * b) Repeat a) but this time compute and print the clip coordinates of the triangle after applying a perspective projection matrix with 
-   *    a field of view of 45°, an aspect-ratio of 1, near plane at 1, and far plane at 100 units. 
+   * b) Repeat a) but this time compute and print the clip coordinates of the triangle after applying a perspective projection matrix with
+   *    a field of view of 45°, an aspect-ratio of 1, near plane at 1, and far plane at 100 units.
    *    Assume the camera is already positioned at the origin.
    */
 
